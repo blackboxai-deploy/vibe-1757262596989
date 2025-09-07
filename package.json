@@ -4,9 +4,9 @@
   "description": "Enterprise Sales CRM Platform - Multi-tenant, Cloud-native Sales Management System",
   "private": true,
   "scripts": {
-    "dev": "PORT=3000 next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && PORT=3000 next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
